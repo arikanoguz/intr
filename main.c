@@ -2,18 +2,9 @@
 #include <stdlib.h>
 
 int main() {
-	int var1, var2, var3, var4, sum, avg, prd;
-	printf("Input four integers:");
-	scanf("%d %d %d %d" , &var1, &var2, &var3, &var4);
-	if (var1 <= 0)
-	var1 = 1;
-	if (var2 <= 0)
-	var2 = 1;
-	if (var3 <= 0)
-	var3 = 1;
-	if (var4 <= 0)
-	var4 = 1;
-	prd = var1 * var2 *var3 * var4;
-	printf("%d", prd);
+	int var1, var10, var100, var;
+	printf("Enter a three-digit number:");
+	scanf("%d", &var);
+	printf("%d %d %d", (var%1000)/100, (var%100)/10, var %10);
 return 0;
 }
