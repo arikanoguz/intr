@@ -4,27 +4,14 @@
 
 
 int main() {
-	int i,n,a,b,c, q,w;
-	printf("Enter five integers:\n");
-	scanf("%d%d%d%d%d", &i, &n, &a, &b, &c);
-		for(q=1; q<=i; q++){
-			printf("*");
+	int i,j;
+	for (i=6; i>=0; i--){
+		
+		for (j=1; j<=i; j++){
+			printf("\t");
 		}
-		printf("\n");
-		for(q=1; q<=n; q++){
-			printf("*");
-		}
-		printf("\n");
-		for(q=1; q<=a; q++){
-			printf("*");
-		}
-		printf("\n");
-		for(q=1; q<=b; q++){
-			printf("*");
-		}
-		printf("\n");
-		for(q=1; q<=c; q++){
-			printf("*");
-		}
-		return 0;
+	printf("7\n");
+}
+
+			return 0;
 }
