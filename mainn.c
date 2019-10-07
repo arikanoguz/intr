@@ -4,21 +4,27 @@
 
 
 int main() {
-	int n, reversedNumber = 0, remainder;
-	
-	printf("Enter an integer:");
-	scanf("%d",&n);
-	
-	while(n != 0)
-	{
-		remainder = n%10;
-		reversedNumber = reversedNumber*10 + remainder;
-		n /= 10;
-	}
-	
-	printf("Reversed Number = %d\n", reversedNumber);
-	
-	system("Pause");
-
-	return 0;
+	int i,n,a,b,c, q,w;
+	printf("Enter five integers:\n");
+	scanf("%d%d%d%d%d", &i, &n, &a, &b, &c);
+		for(q=1; q<=i; q++){
+			printf("*");
+		}
+		printf("\n");
+		for(q=1; q<=n; q++){
+			printf("*");
+		}
+		printf("\n");
+		for(q=1; q<=a; q++){
+			printf("*");
+		}
+		printf("\n");
+		for(q=1; q<=b; q++){
+			printf("*");
+		}
+		printf("\n");
+		for(q=1; q<=c; q++){
+			printf("*");
+		}
+		return 0;
 }
