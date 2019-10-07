@@ -4,14 +4,12 @@
 
 
 int main() {
-	int i,j;
-	for (i=6; i>=0; i--){
-		
-		for (j=1; j<=i; j++){
-			printf("\t");
-		}
-	printf("7\n");
-}
-
-			return 0;
+	int i,j,p = 1;
+	scanf("%d", &i);
+	for(j=1; j<=i; j++){
+		p=p*j;
+	}
+	printf("%d", p);
+	
+	return 0;
 }
